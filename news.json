@@ -1,0 +1,100 @@
+{
+  "entries": [
+    {
+      "type": "feedback",
+      "slug": "feedback-screenshots",
+      "date": "2026-06-11",
+      "issue": 47,
+      "quote": "allow attaching screenshots in feedback — for explaining feature requests or improvements etc",
+      "status": "shipped",
+      "answer": "Shipped — you can attach up to 3 screenshots to a feedback or bug report: pick a file, paste, or drag-and-drop straight into the form.",
+      "shippedIn": "2.30.0"
+    },
+    {
+      "type": "feedback",
+      "slug": "menu-bar-provider-pin",
+      "date": "2026-06-11",
+      "issue": 48,
+      "quote": "right now, I find it a bit of a hassle to come to the settings in display to change the provider",
+      "status": "shipped",
+      "answer": "Shipped — the popover header now has a pin button that puts whichever provider you're viewing into the menu bar instantly. No trip to Settings needed.",
+      "shippedIn": "2.30.0"
+    },
+    {
+      "type": "feedback",
+      "slug": "provider-row-truncation",
+      "date": "2026-06-11",
+      "issue": 49,
+      "quote": "I only see the word \"DEEP\" and I don't see that I can resize this Menu Bar panel",
+      "status": "shipped",
+      "answer": "Shipped — the provider row now auto-scrolls so your active provider is always visible, even when the list is longer than the popover.",
+      "shippedIn": "2.30.0"
+    },
+    {
+      "type": "feedback",
+      "slug": "multiple-mimo-accounts",
+      "date": "2026-06-11",
+      "issue": 50,
+      "quote": "I have one Xiaomi Mi-mo account submission connected, and I'm thinking if it's possible to add another one or more",
+      "status": "not-planned",
+      "answer": "Not planned for now. MiMo signs in with a single browser-session login per account, and supporting several at once would need a much larger account and auth rework. We may revisit if there's broader demand.",
+      "shippedIn": null
+    },
+    {
+      "type": "feedback",
+      "slug": "codex-limit-bar-width",
+      "date": "2026-06-11",
+      "issue": 43,
+      "quote": "Claude’s Weekly Limit bar in the Limit Bank section looks better as it is longer and is able to visualise the quota usage much better than Codex’s",
+      "status": "shipped",
+      "answer": "Fixed — the Codex 7-Day Usage bar in the Limit Bank now spans the full card width, matching Claude's, so quota is easier to read at a glance.",
+      "shippedIn": "2.29.1"
+    },
+    {
+      "type": "feedback",
+      "slug": "aimeter-in-claude-code-desktop",
+      "date": "2026-06-11",
+      "issue": 41,
+      "quote": "Would like to have same features to be in Claude Code Desktop",
+      "status": "not-planned",
+      "answer": "AIMeter is a standalone macOS menu-bar app — it can't add its tracking UI inside Claude Code Desktop. That app is Anthropic's, and there's no extension surface AIMeter could plug into. Happy to revisit if the ask is something AIMeter itself can show.",
+      "shippedIn": null
+    },
+    {
+      "type": "announcement",
+      "slug": "in-app-feedback",
+      "date": "2026-06-06",
+      "title": "Send feedback without leaving AIMeter",
+      "body": "Feedback and bug reports now live right in the dashboard sidebar — no GitHub account needed. Everything answered on this page arrived through that form.",
+      "tag": "feature",
+      "version": "2.28.0"
+    },
+    {
+      "type": "announcement",
+      "slug": "claude-auto-borrow",
+      "date": "2026-06-04",
+      "title": "Auto-borrow on Claude rate limits",
+      "body": "When a Claude account hits its rate limit mid-request, AIMeter can retry once on your default account's quota so you keep working. Opt-in per account.",
+      "tag": "feature",
+      "version": "2.27.0"
+    },
+    {
+      "type": "announcement",
+      "slug": "deepseek-and-xiaomi-mimo",
+      "date": "2026-06-03",
+      "title": "DeepSeek and Xiaomi MiMo support",
+      "body": "AIMeter now tracks DeepSeek usage and account balance with a live streaming meter, plus Xiaomi MiMo usage, quota, and night-discount pricing.",
+      "tag": "feature",
+      "version": "2.26.0"
+    },
+    {
+      "type": "announcement",
+      "slug": "the-big-2-25-update",
+      "date": "2026-05-24",
+      "title": "The big 2.25 update",
+      "body": "Our first public update since 2.6.5: light and dark mode, Active Sessions, a custom global hotkey, and multi-account Claude routing.",
+      "tag": "milestone",
+      "version": "2.25.0"
+    }
+  ]
+}
