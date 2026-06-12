@@ -95,6 +95,16 @@
       "body": "Our first public update since 2.6.5: light and dark mode, Active Sessions, a custom global hotkey, and multi-account Claude routing.",
       "tag": "milestone",
       "version": "2.25.0"
+    },
+    {
+      "type": "feedback",
+      "slug": "default-browser-login",
+      "date": "2026-06-12",
+      "issue": 56,
+      "quote": "I'm just wondering if it's possible to be able to log in and then it will use my default browser… right now it opens up a pop-up and I have to log in with my Google, and I have to type in my password as well as the 2FA. I can't even use my pass key.",
+      "status": "not-planned",
+      "answer": "Not possible for cookie-based providers, honestly. AIMeter needs to capture the provider's session cookie to poll your usage, and macOS browsers never expose their cookies to other apps — only an embedded login window can hand that cookie over. Where real OAuth exists (ChatGPT/Codex), AIMeter already opens your default browser. The missing passkey support inside the popup is a limitation of Apple's embedded web view, not a switch the app can flip.",
+      "shippedIn": null
     }
   ]
 }
