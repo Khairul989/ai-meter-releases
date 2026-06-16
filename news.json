@@ -105,6 +105,36 @@
       "status": "not-planned",
       "answer": "Not possible for cookie-based providers, honestly. AIMeter needs to capture the provider's session cookie to poll your usage, and macOS browsers never expose their cookies to other apps — only an embedded login window can hand that cookie over. Where real OAuth exists (ChatGPT/Codex), AIMeter already opens your default browser. The missing passkey support inside the popup is a limitation of Apple's embedded web view, not a switch the app can flip.",
       "shippedIn": null
+    },
+    {
+      "type": "feedback",
+      "slug": "feedback-trackpad-provider-swipe",
+      "date": "2026-06-16",
+      "issue": 57,
+      "quote": "Would it be possible to use the trackpad to swipe and navigate around the providers — two fingers to swipe left and right — instead of clicking the providers one at a time?",
+      "status": "not-planned",
+      "answer": "Not planned for now. The menubar panel is a small popover, and reliable two-finger gesture navigation there is tricky to get right for what's a niche shortcut — clicking a provider already switches between them. Fun idea though, and thanks for sending it.",
+      "shippedIn": null
+    },
+    {
+      "type": "feedback",
+      "slug": "feedback-gemini-antigravity-provider",
+      "date": "2026-06-16",
+      "issue": 59,
+      "quote": "Would it be possible to add support for Google's Antigravity provider? I have a Gemini Pro subscription and it would be nice to showcase that here as well.",
+      "status": "considering",
+      "answer": "Considering it. The open question is whether it exposes a trackable usage/quota surface like the other providers — AIMeter tracks how much quota you have left, not just that an account is signed in. If that pans out, it moves to planned.",
+      "shippedIn": null
+    },
+    {
+      "type": "feedback",
+      "slug": "feedback-control-plane-multiline",
+      "date": "2026-06-16",
+      "issue": 60,
+      "quote": "Is it possible to make the control plane description multi-line? Right now it clips the text.",
+      "status": "planned",
+      "answer": "Planned. The description will wrap to multiple lines instead of getting cut off.",
+      "shippedIn": null
     }
   ]
 }
