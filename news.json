@@ -119,12 +119,12 @@
     {
       "type": "feedback",
       "slug": "feedback-gemini-antigravity-provider",
-      "date": "2026-06-16",
+      "date": "2026-06-21",
       "issue": 59,
       "quote": "Would it be possible to add support for Google's Antigravity provider? I have a Gemini Pro subscription and it would be nice to showcase that here as well.",
-      "status": "considering",
-      "answer": "Considering it. The open question is whether it exposes a trackable usage/quota surface like the other providers — AIMeter tracks how much quota you have left, not just that an account is signed in. If that pans out, it moves to planned.",
-      "shippedIn": null
+      "status": "shipped",
+      "answer": "Shipped in 2.33.0. AIMeter now tracks Google Antigravity (Gemini) quota — sign in with your Google account and your usage shows up grouped just like the Antigravity 2.0 app (weekly + 5-hour limits, expandable to individual models). It does expose a trackable quota surface, so it qualified.",
+      "shippedIn": "2.33.0"
     },
     {
       "type": "feedback",
@@ -135,6 +135,45 @@
       "status": "planned",
       "answer": "Planned. The description will wrap to multiple lines instead of getting cut off.",
       "shippedIn": null
+    },
+    {
+      "type": "feedback",
+      "slug": "feedback-antigravity-support",
+      "date": "2026-06-21",
+      "issue": 62,
+      "quote": "Add Antigravity support please for me to use my Gemini Pro sub.",
+      "status": "shipped",
+      "answer": "Shipped in 2.33.0 — Google Antigravity (Gemini) quota monitoring with Google sign-in, multiple accounts, and the grouped weekly + 5-hour view (Gemini Models / Claude & GPT models, expandable to each model) matching the Antigravity app.",
+      "shippedIn": "2.33.0"
+    },
+    {
+      "type": "feedback",
+      "slug": "feedback-mimo-google-login",
+      "date": "2026-06-21",
+      "issue": 58,
+      "quote": "After I fill in my Google credentials, the login just loads with a blank screen and the window does not close — I cannot get my Xiaomi MiMo subscription logged in.",
+      "status": "shipped",
+      "answer": "Fixed in 2.32.0. Google blocks Sign in with Google inside embedded login windows, so it hung on a blank screen. AIMeter now catches that, bounces you back, and points you to Phone/SMS sign-in or the Chrome extension — both work for MiMo.",
+      "shippedIn": "2.32.0"
+    },
+    {
+      "type": "feedback",
+      "slug": "feedback-paste-clipboard-image",
+      "date": "2026-06-21",
+      "issue": 64,
+      "quote": "Cmd+V does not paste the clipboard image into the Feedback / Bug Report section in Send Feedback.",
+      "status": "shipped",
+      "answer": "Fixed in 2.31.0. Clipboard images arrive in different formats depending on where you copied them (screenshots are TIFF, Preview/Safari are PNG) and paste only handled the generic type, so it failed for some sources. It now loads whichever format the clipboard actually provides.",
+      "shippedIn": "2.31.0"
+    },
+    {
+      "type": "announcement",
+      "slug": "antigravity-provider",
+      "date": "2026-06-21",
+      "title": "Google Antigravity (Gemini) quota monitoring",
+      "body": "AIMeter now tracks your Google Antigravity usage. Gemini and Claude & GPT model quotas are grouped just like the Antigravity 2.0 app — each with a weekly and a 5-hour limit, expandable to the individual models — and you can connect and switch between multiple Google accounts.",
+      "tag": "feature",
+      "version": "2.33.0"
     }
   ]
 }
