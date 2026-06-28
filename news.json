@@ -212,6 +212,36 @@
       "body": "AIMeter now shows Claude's live service health broken down by component, focused on Claude Code — a status dot, current state, 60-day uptime, and the latest incident during an outage. The Claude dashboard page adds a full status panel for every component.",
       "tag": "feature",
       "version": "2.34.0"
+    },
+    {
+      "type": "feedback",
+      "slug": "feedback-keep-mac-awake",
+      "date": "2026-06-28",
+      "issue": 90,
+      "quote": "1 of the main problem people face when they vibe code and the AI is running, then need to standby on their laptop. If they lock their laptop, the screen will turn off and the AI will stop. It will be nice to have a feature that can be toggled on/off so when we lock our screen the AI can run in the background.",
+      "status": "shipped",
+      "answer": "Shipped in 2.37.0 — a Keep Mac Awake toggle (in Settings, plus a quick menu-bar shortcut) stops your Mac from going to sleep so background AI sessions keep running while you step away. macOS will not let any app keep the display unlocked, so the screen can still lock — but the work no longer stops.",
+      "shippedIn": "2.37.0"
+    },
+    {
+      "type": "feedback",
+      "slug": "feedback-codex-reset-expiry",
+      "date": "2026-06-28",
+      "issue": 93,
+      "quote": "There is a new feature from Codex where we can manually trigger resets. It would be nice to see the next expiry date of the reset, so we can plan our resets accordingly.",
+      "status": "shipped",
+      "answer": "Shipped in 2.37.0 — when you have manual limit-reset credits, AIMeter now shows how many you have and when the next one expires, in both the Codex menu-bar view and the dashboard.",
+      "shippedIn": "2.37.0"
+    },
+    {
+      "type": "feedback",
+      "slug": "feedback-codex-reset-duedate",
+      "date": "2026-06-28",
+      "issue": 89,
+      "quote": "Since Codex added a feature where we can reset on our own terms, can you add the ability to show when our resets will expire?",
+      "status": "shipped",
+      "answer": "Shipped in 2.37.0 — AIMeter now surfaces your Codex manual reset credits and their next expiry date in the menu-bar view and the dashboard.",
+      "shippedIn": "2.37.0"
     }
   ]
 }
