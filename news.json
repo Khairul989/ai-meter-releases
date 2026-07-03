@@ -242,6 +242,15 @@
       "status": "shipped",
       "answer": "Shipped in 2.37.0 — AIMeter now surfaces your Codex manual reset credits and their next expiry date in the menu-bar view and the dashboard.",
       "shippedIn": "2.37.0"
+    },
+    {
+      "type": "announcement",
+      "slug": "monochrome-menu-bar",
+      "date": "2026-07-03",
+      "title": "Monochrome menu bar style in 2.42.0",
+      "body": "AIMeter 2.42.0 adds a monochrome menu bar style — a cleaner, wallpaper-friendly look for the meter. The update also brings an always-visible Claude service status card, clearer sign-in error messages, and better VoiceOver support.",
+      "tag": "feature",
+      "version": "2.42.0"
     }
   ]
 }
