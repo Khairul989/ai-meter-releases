@@ -251,6 +251,25 @@
       "body": "AIMeter 2.42.0 adds a monochrome menu bar style — a cleaner, wallpaper-friendly look for the meter. The update also brings an always-visible Claude service status card, clearer sign-in error messages, and better VoiceOver support.",
       "tag": "feature",
       "version": "2.42.0"
+    },
+    {
+      "type": "announcement",
+      "slug": "deepseek-browser-tracking",
+      "date": "2026-07-04",
+      "title": "DeepSeek: track by signing in — no API key needed",
+      "body": "Track your DeepSeek balance and usage just by signing in with your browser — no API key required. A new per-model usage view on the dashboard shows request and token charts, with a hover breakdown of cache-hit / cache-miss / output per day.",
+      "tag": "feature",
+      "version": "2.43.0"
+    },
+    {
+      "type": "feedback",
+      "slug": "feedback-menu-bar-text-color",
+      "date": "2026-07-04",
+      "issue": 161,
+      "quote": "how can i change the text color of the menu bar? my macbook background is light and i can't see the green/yellow text clearly",
+      "status": "shipped",
+      "answer": "Fixed. Open Settings → Display → Menu bar color style and choose Monochrome (adaptive) — the label then renders black-on-light / white-on-dark automatically, so it stays readable on a light wallpaper. The usage colors remain the default.",
+      "shippedIn": "2.42.0"
     }
   ]
 }
