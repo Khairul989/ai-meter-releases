@@ -270,6 +270,55 @@
       "status": "shipped",
       "answer": "Fixed. Open Settings → Display → Menu bar color style and choose Monochrome (adaptive) — the label then renders black-on-light / white-on-dark automatically, so it stays readable on a light wallpaper. The usage colors remain the default.",
       "shippedIn": "2.42.0"
+    },
+    {
+      "type": "announcement",
+      "slug": "unified-redesign-2-45",
+      "date": "2026-07-11",
+      "title": "A cleaner AIMeter — dashboard & popover redesign",
+      "body": "AIMeter 2.45.0 rebuilds every dashboard page and all 10 provider tabs around one consistent design: a big usage dial, activity bars, pace chips, and live countdowns. Window resizing is smoother too.",
+      "tag": "improvement",
+      "version": "2.45.0"
+    },
+    {
+      "type": "feedback",
+      "slug": "codex-multiple-reset-expiries",
+      "date": "2026-07-11",
+      "issue": 176,
+      "quote": "right now, we can only see the latest reset ... can we have that as well",
+      "status": "shipped",
+      "answer": "Shipped in 2.45.0. Codex now lists every manual reset credit with its own expiry countdown in both the popover and the dashboard — hover any credit to see exactly when it runs out.",
+      "shippedIn": "2.45.0"
+    },
+    {
+      "type": "feedback",
+      "slug": "reset-soon-copy",
+      "date": "2026-07-11",
+      "issue": 174,
+      "quote": "reset soon at soon",
+      "status": "shipped",
+      "answer": "Fixed in 2.45.0. When a reset time isn't known yet, the app now reads \"no reset scheduled yet\" instead of the placeholder \"reset soon at soon.\"",
+      "shippedIn": "2.45.0"
+    },
+    {
+      "type": "feedback",
+      "slug": "ollama-support",
+      "date": "2026-07-11",
+      "issue": 177,
+      "quote": "can we add ollama support?",
+      "status": "considering",
+      "answer": "Not supported today and not scheduled yet — it's on the list of provider integrations we're weighing, with no commitment either way right now.",
+      "shippedIn": null
+    },
+    {
+      "type": "feedback",
+      "slug": "keep-awake-button-clarity",
+      "date": "2026-07-11",
+      "issue": 175,
+      "quote": "no tooltip cannot see what it does ... i tap on it but doesn't show anything in particular",
+      "status": "considering",
+      "answer": "That coffee-cup icon is the Keep Mac Awake toggle — it stops your Mac sleeping while AIMeter runs (the cup fills when it's on). It only has a hover tooltip and no visible label today; we're looking at making its purpose clearer.",
+      "shippedIn": null
     }
   ]
 }
