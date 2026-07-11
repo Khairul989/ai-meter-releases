@@ -316,8 +316,8 @@
       "date": "2026-07-11",
       "issue": 175,
       "quote": "no tooltip cannot see what it does ... i tap on it but doesn't show anything in particular",
-      "status": "considering",
-      "answer": "That coffee-cup icon is the Keep Mac Awake toggle — it stops your Mac sleeping while AIMeter runs (the cup fills when it's on). It only has a hover tooltip and no visible label today; we're looking at making its purpose clearer.",
+      "status": "not-planned",
+      "answer": "That coffee-cup icon is the Keep Mac Awake toggle — tap it to stop your Mac going to sleep while AIMeter is running. The cup fills in when it is on and empties when off, mirroring Settings → \"Keep Mac awake.\" It is working as designed; there is no separate action behind it.",
       "shippedIn": null
     }
   ]
