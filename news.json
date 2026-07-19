@@ -319,6 +319,36 @@
       "status": "not-planned",
       "answer": "That coffee-cup icon is the Keep Mac Awake toggle — tap it to stop your Mac going to sleep while AIMeter is running. The cup fills in when it is on and empties when off, mirroring Settings → \"Keep Mac awake.\" It is working as designed; there is no separate action behind it.",
       "shippedIn": null
+    },
+    {
+      "type": "feedback",
+      "slug": "feedback-claude-screenshot-privacy",
+      "date": "2026-07-19",
+      "issue": 217,
+      "quote": "Is it possible to hide the details in the Claude screenshot? Every time I screenshot it shows details, so I don't like sharing it.",
+      "status": "shipped",
+      "answer": "Done in 2.49.2. Use the \"Share quota screenshot\" camera button in the menu bar — or turn on Settings → Hide personal information — and dollar amounts and billing dates are masked in the Claude view, so the screenshot is safe to share.",
+      "shippedIn": "2.49.2"
+    },
+    {
+      "type": "feedback",
+      "slug": "feedback-extra-credit-bar",
+      "date": "2026-07-19",
+      "issue": 218,
+      "quote": "Can we collapse the extra credits limit bank bar? I don't have extra credit, so it's always showing red and looks like my limit has reached 80% — it's confusing.",
+      "status": "shipped",
+      "answer": "Fixed in 2.49.2. If your plan has no extra-usage allowance, the extra-credit bar is now hidden instead of showing a misleading full red bar.",
+      "shippedIn": "2.49.2"
+    },
+    {
+      "type": "feedback",
+      "slug": "feedback-minimax-bar-dial",
+      "date": "2026-07-19",
+      "issue": 219,
+      "quote": "The Minimax quota bar seems shorter than the rest, like Claude or Codex. Also, the circular progress looks like my session limit but is actually my weekly limit, which is confusing.",
+      "status": "shipped",
+      "answer": "Done in 2.49.2. The Minimax bars are now full-width like the other providers, and the circular gauge always shows your session usage instead of switching to the weekly limit.",
+      "shippedIn": "2.49.2"
     }
   ]
 }
