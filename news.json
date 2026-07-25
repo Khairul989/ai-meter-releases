@@ -306,9 +306,9 @@
       "date": "2026-07-11",
       "issue": 177,
       "quote": "can we add ollama support?",
-      "status": "considering",
-      "answer": "Not supported today and not scheduled yet — it's on the list of provider integrations we're weighing, with no commitment either way right now.",
-      "shippedIn": null
+      "status": "shipped",
+      "answer": "Shipped in 2.50.0 as Ollama profiles (beta). Add a profile with a name, address, and model on the new Ollama page, and it becomes a routing target you can point Claude Code at like any other provider.",
+      "shippedIn": "2.50.0"
     },
     {
       "type": "feedback",
