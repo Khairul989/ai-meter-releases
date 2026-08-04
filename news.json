@@ -124,7 +124,8 @@
       "quote": "Would it be possible to add support for Google's Antigravity provider? I have a Gemini Pro subscription and it would be nice to showcase that here as well.",
       "status": "shipped",
       "answer": "Shipped in 2.33.0. AIMeter now tracks Google Antigravity (Gemini) quota — sign in with your Google account and your usage shows up grouped just like the Antigravity 2.0 app (weekly + 5-hour limits, expandable to individual models). It does expose a trackable quota surface, so it qualified.",
-      "shippedIn": "2.33.0"
+      "shippedIn": "2.33.0",
+      "topic": "antigravity"
     },
     {
       "type": "feedback",
@@ -144,7 +145,8 @@
       "quote": "Add Antigravity support please for me to use my Gemini Pro sub.",
       "status": "shipped",
       "answer": "Shipped in 2.33.0 — Google Antigravity (Gemini) quota monitoring with Google sign-in, multiple accounts, and the grouped weekly + 5-hour view (Gemini Models / Claude & GPT models, expandable to each model) matching the Antigravity app.",
-      "shippedIn": "2.33.0"
+      "shippedIn": "2.33.0",
+      "topic": "antigravity"
     },
     {
       "type": "feedback",
@@ -173,7 +175,8 @@
       "title": "Google Antigravity (Gemini) quota monitoring",
       "body": "AIMeter now tracks your Google Antigravity usage. Gemini and Claude & GPT model quotas are grouped just like the Antigravity 2.0 app — each with a weekly and a 5-hour limit, expandable to the individual models — and you can connect and switch between multiple Google accounts.",
       "tag": "feature",
-      "version": "2.33.0"
+      "version": "2.33.0",
+      "topic": "antigravity"
     },
     {
       "type": "feedback",
@@ -183,7 +186,8 @@
       "quote": "Would it be possible to add opencode go tracker?",
       "status": "shipped",
       "answer": "Shipped in 2.34.0 — AIMeter now tracks your OpenCode Go subscription quota (the 5-hour rolling, weekly, and monthly windows) via the browser extension on opencode.ai.",
-      "shippedIn": "2.34.0"
+      "shippedIn": "2.34.0",
+      "topic": "opencode-go"
     },
     {
       "type": "feedback",
@@ -193,7 +197,8 @@
       "quote": "Add OpenCode support please so i can use opencode go sub.",
       "status": "shipped",
       "answer": "Shipped in 2.34.0 — your OpenCode Go subscription usage now shows in AIMeter (5-hour, weekly, and monthly windows), connected through the browser extension on opencode.ai.",
-      "shippedIn": "2.34.0"
+      "shippedIn": "2.34.0",
+      "topic": "opencode-go"
     },
     {
       "type": "announcement",
@@ -202,7 +207,8 @@
       "title": "OpenCode Go tracking",
       "body": "AIMeter now tracks your OpenCode Go subscription usage — the 5-hour rolling, weekly, and monthly windows, each showing how much you have used and when it resets. Connect it through the AIMeter browser extension on opencode.ai.",
       "tag": "feature",
-      "version": "2.34.0"
+      "version": "2.34.0",
+      "topic": "opencode-go"
     },
     {
       "type": "announcement",
@@ -231,7 +237,8 @@
       "quote": "There is a new feature from Codex where we can manually trigger resets. It would be nice to see the next expiry date of the reset, so we can plan our resets accordingly.",
       "status": "shipped",
       "answer": "Shipped in 2.37.0 — when you have manual limit-reset credits, AIMeter now shows how many you have and when the next one expires, in both the Codex menu-bar view and the dashboard.",
-      "shippedIn": "2.37.0"
+      "shippedIn": "2.37.0",
+      "topic": "codex-reset-expiry"
     },
     {
       "type": "feedback",
@@ -241,7 +248,8 @@
       "quote": "Since Codex added a feature where we can reset on our own terms, can you add the ability to show when our resets will expire?",
       "status": "shipped",
       "answer": "Shipped in 2.37.0 — AIMeter now surfaces your Codex manual reset credits and their next expiry date in the menu-bar view and the dashboard.",
-      "shippedIn": "2.37.0"
+      "shippedIn": "2.37.0",
+      "topic": "codex-reset-expiry"
     },
     {
       "type": "announcement",
@@ -250,7 +258,8 @@
       "title": "Monochrome menu bar style in 2.42.0",
       "body": "AIMeter 2.42.0 adds a monochrome menu bar style — a cleaner, wallpaper-friendly look for the meter. The update also brings an always-visible Claude service status card, clearer sign-in error messages, and better VoiceOver support.",
       "tag": "feature",
-      "version": "2.42.0"
+      "version": "2.42.0",
+      "topic": "monochrome-menu-bar"
     },
     {
       "type": "announcement",
@@ -269,7 +278,8 @@
       "quote": "how can i change the text color of the menu bar? my macbook background is light and i can't see the green/yellow text clearly",
       "status": "shipped",
       "answer": "Fixed. Open Settings → Display → Menu bar color style and choose Monochrome (adaptive) — the label then renders black-on-light / white-on-dark automatically, so it stays readable on a light wallpaper. The usage colors remain the default.",
-      "shippedIn": "2.42.0"
+      "shippedIn": "2.42.0",
+      "topic": "monochrome-menu-bar"
     },
     {
       "type": "announcement",
