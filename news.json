@@ -2,6 +2,16 @@
   "entries": [
     {
       "type": "feedback",
+      "slug": "codex-add-account-button",
+      "date": "2026-08-10",
+      "issue": 269,
+      "quote": "when I try to add a new account, it doesn't seem to work — the add account button is disabled and I don't see why. And when I click sign in, it opens my default browser, which is signed into my first account. It would be nice to have a link I can copy and paste into my preferred browser where I have the second account's session.",
+      "status": "shipped",
+      "answer": "Both fixed. The button was greying itself out whenever a sign-in window was open — including when that window ended up on another Space or behind the dashboard, where you could not see it. Tapping the button now brings that window back to the front, and a sign-in in progress shows a Signing in indicator with a working Cancel. And you can now copy the sign-in link and paste it into whichever browser or profile holds your second account.",
+      "shippedIn": "2.53.4"
+    },
+    {
+      "type": "feedback",
       "slug": "feedback-screenshots",
       "date": "2026-06-11",
       "issue": 47,
