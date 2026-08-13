@@ -376,9 +376,9 @@
       "date": "2026-08-13",
       "issue": 275,
       "quote": "For the Codex quota, the 5 hour session seems to have gone and now I only see the 7 day window, and it is all in hourly format — it just reset and it says my quota will reset in 164 hours. At the bottom it shows until reset at 8:23am, just the time. I think a previous version also showed the day, like Tuesday or Monday. It would be nice to have the day of the week back, because right now I have to work out myself how much 164 hours is. Or instead of 164 hours, maybe show it in days.",
-      "status": "planned",
-      "answer": "Fair point, and queued. That countdown was built for the 5-hour window, where a plain hours:minutes:seconds clock reads fine — on a 7-day window it turns into 164:12:33, and a bare 8:23am with no day attached is genuinely ambiguous. The countdown will roll into days for long windows, and the reset line will carry the weekday. On the 5-hour window itself: that is not something we removed — AIMeter shows whichever windows the ChatGPT backend returns for your plan, and when the 5-hour one stops coming back the 7-day window takes its place.",
-      "shippedIn": null
+      "status": "shipped",
+      "answer": "Shipped in 2.53.5. Long windows now count down in days and hours instead of a raw hour total, so no more 164:12:33, and the reset line names the day whenever the reset is not today. Short windows keep the second-by-second clock, since that one is worth watching. On the 5-hour window itself: that was not something we removed — AIMeter shows whichever windows the ChatGPT backend returns for your plan, and when the 5-hour one stops coming back the 7-day window takes its place. The countdown had been written for the 5-hour window and nobody had revisited it once the weekly window took over the display.",
+      "shippedIn": "2.53.5"
     }
   ]
 }
