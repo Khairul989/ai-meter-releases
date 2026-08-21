@@ -379,6 +379,16 @@
       "status": "shipped",
       "answer": "Shipped in 2.53.5. Long windows now count down in days and hours instead of a raw hour total, so no more 164:12:33, and the reset line names the day whenever the reset is not today. Short windows keep the second-by-second clock, since that one is worth watching. On the 5-hour window itself: that was not something we removed — AIMeter shows whichever windows the ChatGPT backend returns for your plan, and when the 5-hour one stops coming back the 7-day window takes its place. The countdown had been written for the 5-hour window and nobody had revisited it once the weekly window took over the display.",
       "shippedIn": "2.53.5"
+    },
+    {
+      "type": "feedback",
+      "slug": "codex-sidebar-expired-account",
+      "date": "2026-08-21",
+      "issue": 290,
+      "quote": "i have two codex accounts. one is active and another seems to be session expired… i realised that codex is missing from the “active” providers list on the left side bar menu. i then had to retoggle back to the active codex account just to see codex in the menu",
+      "status": "planned",
+      "answer": "Confirmed and accepted. The Settings sidebar currently lists Codex only when the account you have selected is live, so an expired session hides Codex even when your other account is healthy. Planned fix: Codex stays in the sidebar as long as any account exists, so you can always reach the page to re-sign-in or add accounts.",
+      "shippedIn": null
     }
   ]
 }
