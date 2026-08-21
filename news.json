@@ -389,6 +389,16 @@
       "status": "shipped",
       "answer": "Fixed in 2.55.1. The sidebar listed Codex only when the account you had selected was live, so an expired session hid Codex even when your other account was healthy. Codex now stays in the sidebar as long as any account is added, so you can always reach the page to re-sign-in or switch accounts.",
       "shippedIn": "2.55.1"
+    },
+    {
+      "type": "feedback",
+      "slug": "feedback-discard-confirmation",
+      "date": "2026-08-21",
+      "issue": 291,
+      "quote": "i accidentally tap on escape or other keys that will sometimes discard the dialog and my progress of the feedback / bug report is gone… would be nice to have a confirmation dialog",
+      "status": "planned",
+      "answer": "Accepted. Escape currently discards the whole draft instantly, which is too easy to trigger. A confirmation prompt before discarding unsaved feedback is planned for an upcoming release — an empty form will still close instantly.",
+      "shippedIn": null
     }
   ]
 }
