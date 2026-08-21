@@ -386,9 +386,9 @@
       "date": "2026-08-21",
       "issue": 290,
       "quote": "i have two codex accounts. one is active and another seems to be session expired… i realised that codex is missing from the “active” providers list on the left side bar menu. i then had to retoggle back to the active codex account just to see codex in the menu",
-      "status": "planned",
-      "answer": "Confirmed and accepted. The Settings sidebar currently lists Codex only when the account you have selected is live, so an expired session hides Codex even when your other account is healthy. Planned fix: Codex stays in the sidebar as long as any account exists, so you can always reach the page to re-sign-in or add accounts.",
-      "shippedIn": null
+      "status": "shipped",
+      "answer": "Fixed in 2.55.1. The sidebar listed Codex only when the account you had selected was live, so an expired session hid Codex even when your other account was healthy. Codex now stays in the sidebar as long as any account is added, so you can always reach the page to re-sign-in or switch accounts.",
+      "shippedIn": "2.55.1"
     }
   ]
 }
