@@ -396,9 +396,9 @@
       "date": "2026-08-21",
       "issue": 291,
       "quote": "i accidentally tap on escape or other keys that will sometimes discard the dialog and my progress of the feedback / bug report is gone… would be nice to have a confirmation dialog",
-      "status": "planned",
-      "answer": "Accepted. Escape currently discards the whole draft instantly, which is too easy to trigger. A confirmation prompt before discarding unsaved feedback is planned for an upcoming release — an empty form will still close instantly.",
-      "shippedIn": null
+      "status": "shipped",
+      "answer": "Shipped in 2.55.2. Escape, Cancel, and the close button now ask for confirmation before discarding a draft with content — an empty form still closes instantly. The same release also fixes screenshot paste (⌘V) failing while a text field had focus.",
+      "shippedIn": "2.55.2"
     }
   ]
 }
