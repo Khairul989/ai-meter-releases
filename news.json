@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "type": "announcement",
+      "slug": "signin-fixes",
+      "date": "2026-08-26",
+      "title": "Sign-in fixes for Codex and Claude",
+      "body": "v2.56.3 fixes three sign-in problems: Codex accounts that eventually broke with endless 401 errors (dashboard sign-in now uses the standard ChatGPT browser sign-in, and an expired session shows a clear banner), a Claude sign-in window that could open hidden behind other windows (it now comes to the front, with a cancel button for stuck attempts), and empty Claude usage for accounts in more than one workspace (AIMeter now connects all your workspaces and starts on the one you actually use). If you were affected, update and sign out/in once on that provider.",
+      "tag": "fix",
+      "version": "2.56.3"
+    },
+    {
       "type": "feedback",
       "slug": "codex-add-account-button",
       "date": "2026-08-10",
