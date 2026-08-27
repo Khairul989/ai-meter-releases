@@ -1,0 +1,13 @@
+{
+  "version": "7.2.135",
+  "minAppBuild": 263,
+  "notes": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v7.2.135",
+  "arm64": {
+    "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.135/CLIProxyAPI_7.2.135_darwin_aarch64.tar.gz",
+    "sha256": "c5f6e785cf7568c177d5c31aa75c389c4bb1b1dee9e0133887b9bce3200475dd"
+  },
+  "x86_64": {
+    "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.135/CLIProxyAPI_7.2.135_darwin_amd64.tar.gz",
+    "sha256": "d171e00b47c00c07e34c53fc93f9b71b8db23ef23496c3b6994038940f319c4c"
+  }
+}
