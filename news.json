@@ -408,6 +408,49 @@
       "status": "shipped",
       "answer": "Shipped in 2.55.2. Escape, Cancel, and the close button now ask for confirmation before discarding a draft with content — an empty form still closes instantly. The same release also fixes screenshot paste (⌘V) failing while a text field had focus.",
       "shippedIn": "2.55.2"
+    },
+    {
+      "type": "announcement",
+      "slug": "command-code-provider",
+      "date": "2026-09-25",
+      "title": "Command Code tracking",
+      "body": "AIMeter now tracks your Command Code plan: the 5-hour, weekly and monthly limits, each with how much you have used and when it resets. The provider page also shows this billing period's tokens, runs, success rate and cost. If you have signed in with the Command Code CLI, AIMeter picks up that key automatically; otherwise paste a key from your Command Code settings.",
+      "tag": "feature",
+      "version": "2.62.0",
+      "topic": "command-code"
+    },
+    {
+      "type": "feedback",
+      "slug": "feedback-command-code-provider",
+      "date": "2026-09-25",
+      "issue": 342,
+      "quote": "Please add support for Command Code Provider",
+      "status": "shipped",
+      "answer": "Shipped in 2.62.0. Command Code now shows its 5-hour, weekly and monthly limits in the popover, the notch and the dashboard, plus this billing period's usage totals on the provider page. It uses your Command Code CLI sign-in automatically, or a pasted key.",
+      "shippedIn": "2.62.0",
+      "topic": "command-code"
+    },
+    {
+      "type": "feedback",
+      "slug": "feedback-command-code-request",
+      "date": "2026-09-25",
+      "issue": 372,
+      "quote": "Please add Command Code.",
+      "status": "shipped",
+      "answer": "Shipped in 2.62.0. Command Code is now a provider: your 5-hour, weekly and monthly limits show in the popover, the notch and the dashboard. It uses your Command Code CLI sign-in automatically, or a pasted key.",
+      "shippedIn": "2.62.0",
+      "topic": "command-code"
+    },
+    {
+      "type": "feedback",
+      "slug": "feedback-opencode-cookie-guide",
+      "date": "2026-09-25",
+      "issue": 373,
+      "quote": "I'm not sure how to pass in the OpenCode cookie. Can you teach me, or is there a guide?",
+      "status": "shipped",
+      "answer": "You do not need to copy a cookie by hand. In AIMeter, open Settings → Extension, press Install (or Manage), and load the AIMeter Cookie Bridge in your browser; then sign in at opencode.ai and AIMeter picks up your session. Pasting the session cookie and workspace ID into the OpenCode Go provider page also works. Use 2.61.0 or later, which reads the new sign-in cookie OpenCode switched to.",
+      "shippedIn": "2.61.0",
+      "topic": "opencode-go"
     }
   ]
 }
