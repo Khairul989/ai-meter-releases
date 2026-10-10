@@ -426,7 +426,7 @@
       "issue": 342,
       "quote": "Please add support for Command Code Provider",
       "status": "shipped",
-      "answer": "Shipped in 2.62.0. Command Code now shows its 5-hour, weekly and monthly limits in the popover, the notch and the dashboard, plus this billing period's usage totals on the provider page. It uses your Command Code CLI sign-in automatically, or a pasted key.",
+      "answer": "Shipped in 2.62.0. Command Code now shows its 5-hour, weekly and monthly limits in the popover and the dashboard, plus this billing period's usage totals on the provider page. It uses your Command Code CLI sign-in automatically, or a pasted key.",
       "shippedIn": "2.62.0",
       "topic": "command-code"
     },
@@ -437,7 +437,7 @@
       "issue": 372,
       "quote": "Please add Command Code.",
       "status": "shipped",
-      "answer": "Shipped in 2.62.0. Command Code is now a provider: your 5-hour, weekly and monthly limits show in the popover, the notch and the dashboard. It uses your Command Code CLI sign-in automatically, or a pasted key.",
+      "answer": "Shipped in 2.62.0. Command Code is now a provider: your 5-hour, weekly and monthly limits show in the popover and the dashboard. It uses your Command Code CLI sign-in automatically, or a pasted key.",
       "shippedIn": "2.62.0",
       "topic": "command-code"
     },
