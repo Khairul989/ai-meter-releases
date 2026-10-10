@@ -451,6 +451,67 @@
       "answer": "You do not need to copy a cookie by hand. In AIMeter, open Settings → Extension, press Install (or Manage), and load the AIMeter Cookie Bridge in your browser; then sign in at opencode.ai and AIMeter picks up your session. Pasting the session cookie and workspace ID into the OpenCode Go provider page also works. Use 2.61.0 or later, which reads the new sign-in cookie OpenCode switched to.",
       "shippedIn": "2.61.0",
       "topic": "opencode-go"
+    },
+    {
+      "type": "announcement",
+      "slug": "dashboard-redesign-2-64",
+      "date": "2026-10-10",
+      "title": "A redesigned dashboard and Claude page in 2.64.0",
+      "body": "The Overview now tells you at a glance whether anything needs you, and the Providers page reads like a status board. The Claude page shows usage that fits one window, routing that checks itself, and analytics of what your Claude Code usage was worth and where it went.",
+      "tag": "improvement",
+      "version": "2.64.0"
+    },
+    {
+      "type": "feedback",
+      "slug": "feedback-command-code-multiple-keys",
+      "date": "2026-10-10",
+      "issue": 383,
+      "quote": "Would like to ask if it's possible to add multiple API keys from Command Code … just want to have a way to show all different API keys' spendings.",
+      "status": "shipped",
+      "answer": "Done in 2.64.0. The Command Code page in the dashboard now has an API keys panel: add as many keys as you like and switch between them there or from the account row in the popover. Each key's limits and spending stay with that key, so you never see one key's numbers under another.",
+      "shippedIn": "2.64.0",
+      "topic": "command-code"
+    },
+    {
+      "type": "feedback",
+      "slug": "feedback-command-code-more-keys",
+      "date": "2026-10-10",
+      "issue": 392,
+      "quote": "Can I add more than one Command Code API key?",
+      "status": "shipped",
+      "answer": "Yes, from 2.64.0. Open the Command Code page in the dashboard and use the API keys panel to add more keys and switch between them; each key keeps its own numbers.",
+      "shippedIn": "2.64.0",
+      "topic": "command-code"
+    },
+    {
+      "type": "feedback",
+      "slug": "feedback-used-or-left",
+      "date": "2026-10-10",
+      "issue": 400,
+      "quote": "Codex is counting down from 100% to 0% remaining, and Claude is the opposite. Would it be possible to have the ability to toggle that?",
+      "status": "shipped",
+      "answer": "You can already: since 2.61.0, Settings → Appearance lets you show each provider as \"used\" or \"left\", one setting per provider (Claude, Codex and the other percentage-based providers). Colours and warnings still follow how much is used, so they mean the same thing either way.",
+      "shippedIn": "2.61.0"
+    },
+    {
+      "type": "feedback",
+      "slug": "feedback-codex-account-arrow-keys",
+      "date": "2026-10-10",
+      "issue": 356,
+      "quote": "Left and right arrow keys switch providers in the menu bar popover. It would be nice if up and down switched between the accounts I have for one provider, like my 3 Codex accounts.",
+      "status": "considering",
+      "answer": "A good idea and not built yet. The popover was just rebuilt in 2.64.0, so we will look at account switching with up and down keys on top of the new design. No date yet.",
+      "shippedIn": null
+    },
+    {
+      "type": "feedback",
+      "slug": "feedback-opencode-zen",
+      "date": "2026-10-10",
+      "issue": 343,
+      "quote": "Is the OpenCode Zen provider supported? I know Go is, but what about Zen?",
+      "status": "considering",
+      "answer": "Not yet — AIMeter tracks OpenCode Go only. Zen is billed differently, so it needs its own reader; it is on the list to look at, with no date yet.",
+      "shippedIn": null
     }
   ]
 }
