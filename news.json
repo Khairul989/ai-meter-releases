@@ -499,8 +499,8 @@
       "date": "2026-10-10",
       "issue": 356,
       "quote": "Left and right arrow keys switch providers in the menu bar popover. It would be nice if up and down switched between the accounts I have for one provider, like my 3 Codex accounts.",
-      "status": "considering",
-      "answer": "A good idea and not built yet. The popover was just rebuilt in 2.64.0, so we will look at account switching with up and down keys on top of the new design. No date yet.",
+      "status": "not-planned",
+      "answer": "Not planned for now: up/down account switching isn't on the roadmap. Left/right still switch providers, and you can change accounts from the account menu at the top of the tab.",
       "shippedIn": null
     },
     {
@@ -509,8 +509,28 @@
       "date": "2026-10-10",
       "issue": 343,
       "quote": "Is the OpenCode Zen provider supported? I know Go is, but what about Zen?",
-      "status": "considering",
-      "answer": "Not yet — AIMeter tracks OpenCode Go only. Zen is billed differently, so it needs its own reader; it is on the list to look at, with no date yet.",
+      "status": "not-planned",
+      "answer": "Not planned for now: AIMeter supports OpenCode Go, and adding OpenCode Zen as a separate provider isn't on the roadmap.",
+      "shippedIn": null
+    },
+    {
+      "type": "feedback",
+      "slug": "feedback-screenshot-token-numbers",
+      "date": "2026-10-14",
+      "issue": 407,
+      "quote": "Would it be possible to include the token usage numbers in the screenshot? If I want to share the numbers, that would be nicer than just sharing the usage.",
+      "status": "planned",
+      "answer": "Planned. Screenshots hide token counts on purpose so a shared image never reveals usage by accident; we will add a way to include the numbers when you choose to share them.",
+      "shippedIn": null
+    },
+    {
+      "type": "feedback",
+      "slug": "feedback-more-models",
+      "date": "2026-10-14",
+      "issue": 408,
+      "quote": "It appears to only show three models at once, and if I click on the more models tag, it doesn't actually show me more models.",
+      "status": "planned",
+      "answer": "That tag in the menu-bar popover should open the full model list, as it already does in the notch. It is a bug and the fix is coming in the next release. For a deeper breakdown today, the dashboard has per-provider usage pages.",
       "shippedIn": null
     }
   ]
