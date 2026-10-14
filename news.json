@@ -532,6 +532,16 @@
       "status": "planned",
       "answer": "That tag in the menu-bar popover should open the full model list, as it already does in the notch. It is a bug and the fix is coming in the next release. For a deeper breakdown today, the dashboard has per-provider usage pages.",
       "shippedIn": null
+    },
+    {
+      "type": "feedback",
+      "slug": "feedback-reset-date-time",
+      "date": "2026-10-14",
+      "issue": 406,
+      "quote": "Instead of showing the reset time only as a countdown, like in five days, four hours, it would be nice to show the actual date and time of the reset as well, such as Sunday, 3pm.",
+      "status": "planned",
+      "answer": "Planned and in progress: the reset line will show the actual day and time next to the countdown (for example \"6d 14h · Sun 3:00 PM\"), not instead of it.",
+      "shippedIn": null
     }
   ]
 }
