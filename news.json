@@ -519,9 +519,9 @@
       "date": "2026-10-14",
       "issue": 407,
       "quote": "Would it be possible to include the token usage numbers in the screenshot? If I want to share the numbers, that would be nicer than just sharing the usage.",
-      "status": "planned",
-      "answer": "Planned. Screenshots hide token counts on purpose so a shared image never reveals usage by accident; we will add a way to include the numbers when you choose to share them.",
-      "shippedIn": null
+      "status": "shipped",
+      "answer": "Shipped in 2.68.0. Shared screenshots now include your token counts and their estimated costs. Turn on Hide personal information to hide them again; billing amounts always stay hidden.",
+      "shippedIn": "2.68.0"
     },
     {
       "type": "feedback",
@@ -529,9 +529,9 @@
       "date": "2026-10-14",
       "issue": 408,
       "quote": "It appears to only show three models at once, and if I click on the more models tag, it doesn't actually show me more models.",
-      "status": "planned",
-      "answer": "That tag in the menu-bar popover should open the full model list, as it already does in the notch. It is a bug and the fix is coming in the next release. For a deeper breakdown today, the dashboard has per-provider usage pages.",
-      "shippedIn": null
+      "status": "shipped",
+      "answer": "Shipped in 2.68.0. The popover's more-models tag is now a Show more / Show less toggle that lists every model. For the full breakdown, open the dashboard: the Claude page's Analytics tab has it.",
+      "shippedIn": "2.68.0"
     },
     {
       "type": "feedback",
@@ -539,9 +539,9 @@
       "date": "2026-10-14",
       "issue": 406,
       "quote": "Instead of showing the reset time only as a countdown, like in five days, four hours, it would be nice to show the actual date and time of the reset as well, such as Sunday, 3pm.",
-      "status": "planned",
-      "answer": "Planned and in progress: the reset line will show the actual day and time next to the countdown (for example \"6d 14h · Sun 3:00 PM\"), not instead of it.",
-      "shippedIn": null
+      "status": "shipped",
+      "answer": "Shipped in 2.68.0. Each quota card in the popover now shows the reset day and time after the countdown, for example \"6d 14h · Sun 3:00 PM\".",
+      "shippedIn": "2.68.0"
     }
   ]
 }
