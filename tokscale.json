@@ -1,0 +1,13 @@
+{
+  "version": "4.18.0",
+  "minAppBuild": 297,
+  "notes": "https://github.com/junhoyeo/tokscale/releases/tag/v4.18.0",
+  "arm64": {
+    "url": "https://registry.npmjs.org/@tokscale/cli-darwin-arm64/-/cli-darwin-arm64-4.18.0.tgz",
+    "sha256": "926b2b62275ff6f14cc3e20a4567072d26baf64a48cf8e9f9973c79f5af4a383"
+  },
+  "x86_64": {
+    "url": "https://registry.npmjs.org/@tokscale/cli-darwin-x64/-/cli-darwin-x64-4.18.0.tgz",
+    "sha256": "5485b363fee26fc0065f84c54b4dff56acf8327aab95b256d9ecd85a8865366a"
+  }
+}
