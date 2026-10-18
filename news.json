@@ -542,6 +542,24 @@
       "status": "shipped",
       "answer": "Shipped in 2.68.0. Each quota card in the popover now shows the reset day and time after the countdown, for example \"6d 14h · Sun 3:00 PM\".",
       "shippedIn": "2.68.0"
+    },
+    {
+      "type": "announcement",
+      "slug": "claude-code-codex-routing",
+      "date": "2026-10-18",
+      "title": "Use Codex from Claude Code, on demand or at a Claude limit",
+      "body": "Choose Codex as a Claude profile's source, or let it take over when Claude reaches its limit and switch back after the reset. Routing settings now show each step clearly, and Codex usage tracking includes these turns and the standalone claudex command.",
+      "tag": "feature",
+      "version": "2.73.0"
+    },
+    {
+      "type": "announcement",
+      "slug": "grok-multiple-accounts",
+      "date": "2026-10-18",
+      "title": "Switch between multiple Grok accounts",
+      "body": "Keep several Grok accounts in AIMeter, each with its own Grok and Grok Bot logins. Switch accounts from the Grok tab or dashboard, with usage alerts that identify which account needs attention.",
+      "tag": "feature",
+      "version": "2.73.0"
     }
   ]
 }
