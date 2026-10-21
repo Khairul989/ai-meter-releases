@@ -560,6 +560,16 @@
       "body": "Keep several Grok accounts in AIMeter, each with its own Grok and Grok Bot logins. Switch accounts from the Grok tab or dashboard, with usage alerts that identify which account needs attention.",
       "tag": "feature",
       "version": "2.73.0"
+    },
+    {
+      "type": "feedback",
+      "slug": "tokscale-optional",
+      "date": "2026-10-21",
+      "issue": 476,
+      "quote": "Can we make Tokscale optional/toggleable? Sometimes it is draining battery and hogging CPU more than expected, for the dashboard.",
+      "status": "shipped",
+      "answer": "Both sides are fixed in 2.75.0. The real drain was the dashboard's Usage page: it kept refreshing every 15 seconds even after you minimised, hid or closed the window. It now refreshes quickly only while you can see it. And Settings › Usage › Tracked tools has a new Scan other AI tools switch: turn it off and the scanner never runs, while Claude Code and Codex usage still show.",
+      "shippedIn": "2.75.0"
     }
   ]
 }
