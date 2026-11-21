@@ -570,6 +570,15 @@
       "status": "shipped",
       "answer": "Both sides are fixed in 2.75.0. The real drain was the dashboard's Usage page: it kept refreshing every 15 seconds even after you minimised, hid or closed the window. It now refreshes quickly only while you can see it. And Settings › Usage › Tracked tools has a new Scan other AI tools switch: turn it off and the scanner never runs, while Claude Code and Codex usage still show.",
       "shippedIn": "2.75.0"
+    },
+    {
+      "type": "announcement",
+      "slug": "claude-traffic-view",
+      "date": "2026-11-21",
+      "title": "See where every Claude request goes",
+      "body": "With Claude routing on, switch the Claude page to Traffic to watch each request as it happens: the folder and app it came from, the profile it used, and who answered it, whether your own sign-in, another account or Codex. Click a request to see its route step by step, and the Claude page now lists your running sessions too.",
+      "tag": "feature",
+      "version": "2.82.0"
     }
   ]
 }
