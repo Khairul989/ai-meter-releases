@@ -599,6 +599,26 @@
       "status": "shipped",
       "answer": "You can use an available Codex reset credit directly in AIMeter. The first tap opens a confirmation so you can see what the credit applies to. Confirm to spend the credit and reset the eligible limits.",
       "shippedIn": "2.61.0"
+    },
+    {
+      "type": "feedback",
+      "slug": "codex-hide-personal-information",
+      "date": "2026-11-25",
+      "issue": 549,
+      "quote": "I would like to have a, switch that would be nice, that I can toggle, so that, to see if I should hide, or redact data by default, or not.",
+      "status": "shipped",
+      "answer": "Open AIMeter → Settings → Appearance → Interface and turn off Hide Personal Information to see the account names in the Codex dashboard. AIMeter’s Copy quota screenshot button still masks the Codex email. A screenshot taken with macOS captures what is visible on screen.",
+      "shippedIn": "2.83.0"
+    },
+    {
+      "type": "feedback",
+      "slug": "codex-distinguish-business-accounts",
+      "date": "2026-11-25",
+      "issue": 550,
+      "quote": "business profile, seems to hide the account info, unable to differentiate properly.",
+      "status": "shipped",
+      "answer": "If your Codex accounts both say Hidden, go to AIMeter → Settings → Appearance → Interface and turn off Hide Personal Information. The Accounts table then shows the account names and shortened emails so you can tell your work and personal accounts apart.",
+      "shippedIn": "2.83.0"
     }
   ]
 }
