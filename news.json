@@ -579,6 +579,26 @@
       "body": "With Claude routing on, switch the Claude page to Traffic to watch each request as it happens: the folder and app it came from, the profile it used, and who answered it, whether your own sign-in, another account or Codex. Click a request to see its route step by step, and the Claude page now lists your running sessions too.",
       "tag": "feature",
       "version": "2.82.0"
+    },
+    {
+      "type": "feedback",
+      "slug": "codex-proxy-one-account",
+      "date": "2026-11-25",
+      "issue": 551,
+      "quote": "if I want to just focus on using this primary account Quota, how can I have a proper toggle or not on that?",
+      "status": "shipped",
+      "answer": "You can keep the Codex proxy on and use a single account in AIMeter 2.83.0. Go to Codex → Routing → Edit Default and leave only the account you want to use. The update keeps your existing account list, so make this change once after updating. If you’ve assigned a routing profile to a folder, that profile still controls which accounts Codex uses there.",
+      "shippedIn": "2.83.0"
+    },
+    {
+      "type": "feedback",
+      "slug": "codex-redeem-usage-reset",
+      "date": "2026-11-25",
+      "issue": 552,
+      "quote": "is that a way for me to trigger the reset from AMeter, or must I always use CLI or desktop?",
+      "status": "shipped",
+      "answer": "You can use an available Codex reset credit directly in AIMeter. The first tap opens a confirmation so you can see what the credit applies to. Confirm to spend the credit and reset the eligible limits.",
+      "shippedIn": "2.61.0"
     }
   ]
 }
